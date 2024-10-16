@@ -11,7 +11,12 @@ const port = process.env.PORT || 8000;
 
 // middleware
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://localhost:5174"],
+  origin: [
+    "https://stayvista-arif.firebaseapp.com",
+    "https://stayvista-arif.web.app",
+    "http://localhost:5173",
+    "http://localhost:5174",
+  ],
   credentials: true,
   optionSuccessStatus: 200,
 };
@@ -88,6 +93,7 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   },
 });
+
 
 async function run() {
   try {
@@ -523,7 +529,7 @@ async function run() {
     });
 
     // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
+    // await client.db("admin").command({ ping: 1 });
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
