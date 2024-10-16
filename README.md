@@ -8,16 +8,17 @@ Admin User Name: admin@test.com
 
 TEN NOTEABLE FEATURE:
 
-Use Authentication using Firebase for (GitHub, Google, Login, Logout, SignUp) with validation
-Implement Authorization Using JWT (Store token on localStorage)
-Added Dark and Light Them
-It has role base dashboard (For student, tutor, admin)
-Implement private route
-Use imageBB for upload image
-Use hooks for secure and public route
-Use TanStack for fatching, update, delete (State management)
-Responsive Home Page
-Implement search sort functionality and so on.
+          - Use Authentication using Firebase for (GitHub, Google, Login, Logout, SignUp) with validation
+          - Implement Authorization Using JWT (Store token on localStorage)
+          - Added Dark and Light Them
+          - It has role base dashboard (For student, tutor, admin)
+          - Payment system (Stripe).
+          - Implement private route
+          - Use imageBB for upload image
+          - Use hooks for secure and public route
+          - Use TanStack for fatching, update, delete (State management)
+          - Responsive Home Page
+          - Implement search sort functionality and so on.
 
 **Part 1 (17/05/2024):**
 - Introduction & Project overview.
